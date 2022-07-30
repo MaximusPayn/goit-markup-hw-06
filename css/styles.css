@@ -1053,8 +1053,8 @@ ul {
 
 .icon-close {
    color: currentColor;
-   width: 18px;
-   height: 18px;
+   width: 11px;
+   height: 11px;
 }
 
 .modal-form {
@@ -1074,6 +1074,7 @@ ul {
     font-size: 12px;
     line-height: 1.16;
     letter-spacing: 0.01em;
+    color: rgba(117, 117, 117, 1);
   }
 
 .signup-input {
@@ -1135,8 +1136,9 @@ ul {
 .policy-input:checked + .policy-icon {
     border-color: var(--accent-color);
     background-color: var(--accent-color);
+    background-repeat: no-repeat;
+    background-size: center;
     background-image: url(../imiges/icons/icon.svg/check.svg);
-    background-size: contain;
     background-origin: border-box;
   }
 
